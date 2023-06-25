@@ -6,12 +6,8 @@ json:
 cron:
   state: true
   repeat_minutes: 1
-file:
-  access.log: 21
-  access.log.1: 11
-  access.log.2: 9
 postgresql:
-  username: m
+  username: myusername
   password: password
   host_port: localhost
-  db: m
+  db: mydb

@@ -1,0 +1,17 @@
+path:
+  full_folder_path: test_data
+  mask: access.log
+json:
+  save_folder_path: json_file
+cron:
+  state: true
+  repeat_minutes: 1
+file:
+  access.log: 21
+  access.log.1: 11
+  access.log.2: 9
+postgresql:
+  username: m
+  password: password
+  host_port: localhost
+  db: m

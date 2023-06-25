@@ -51,24 +51,24 @@ postgresql:
 Пример проекта:
 ├── README.md
 ├── app
-│   ├── choose.py
-│   ├── json.py
-│   └── parse.py
+│   ├── choose.py
+│   ├── json.py
+│   └── parse.py
 ├── config
-│   ├── config.py
-│   └── config.yml
+│   ├── config.py
+│   └── config.yml
 ├── db
-│   ├── models.py
-│   └── mydb.py
+│   ├── models.py
+│   └── mydb.py
 ├── json_file
-│   ├── between_2023-06-25.json
-│   └── ip_2023-06-25.json
+│   ├── between_2023-06-25.json
+│   └── ip_2023-06-25.json
 ├── requirements.txt
 ├── start_parse.py
 ├── test_data
-│   ├── access.log
-│   ├── access.log.1
-│   └── access.log.2
+│   ├── access.log
+│   ├── access.log.1
+│   └── access.log.2
 └── view.py
 
 Не меняйте названия файлов, не удаляйте файлы и не перемещайте.

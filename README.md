@@ -47,28 +47,3 @@ postgresql:
 4) Начало парсинга - запустите в терминале python/python3 путь_до_файла/start_parse.py
 
 5) Получить file.json/просмотреть данные - запустите view.py, следуйте инструкциям 
-
-Пример проекта:
-├── README.md
-├── app
-│   ├── choose.py
-│   ├── json.py
-│   └── parse.py
-├── config
-│   ├── config.py
-│   └── config.yml
-├── db
-│   ├── models.py
-│   └── mydb.py
-├── json_file
-│   ├── between_2023-06-25.json
-│   └── ip_2023-06-25.json
-├── requirements.txt
-├── start_parse.py
-├── test_data
-│   ├── access.log
-│   ├── access.log.1
-│   └── access.log.2
-└── view.py
-
-Не меняйте названия файлов, не удаляйте файлы и не перемещайте.
